@@ -1,0 +1,2 @@
+INFO - 2024-01-02 18:55:29,351 - process: 19024 - scheduler.py - gerapy.server.core.scheduler - 105 - scheduler - successfully synced task with jobs with force
+INFO - 2024-01-02 20:06:50,535 - process: 19024 - build.py - gerapy.server.core.build - 24 - build - successfully build project jc_info to egg file C:\Users\Frank\Documents\PycharmProjects\spider_code\2023_10_17_基礎爬蟲代碼\2023_12_17_scrapy項目部屬\2.gerapy部屬\gerapy\projects\jc_info\jc_info-1.0-py3.9.egg

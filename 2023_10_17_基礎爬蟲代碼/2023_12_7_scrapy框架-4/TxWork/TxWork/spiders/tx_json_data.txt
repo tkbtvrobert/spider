@@ -1,0 +1,400 @@
+{
+    "title": "DevOps Engineer 101733",
+    "department": "TEG",
+    "address": "帕罗奥多\n                  ",
+    "post": "技术",
+    "date": "更新于2023年08月17日",
+    "recruit_data": "- Building and supporting infrastructure tools to improve processes & efficiency.\n- Building advanced automated build, test, and release infrastructure tools.\n- Identifying and solving critical problems and preventing them from reoccurring via root cause analysis and automation.\r\nWork Location: US-Palo Alto"
+}
+{
+    "title": "高级后台开发工程师",
+    "department": "TEG",
+    "address": "深圳\n                  ",
+    "post": "技术",
+    "date": "更新于2023年12月14日",
+    "recruit_data": "1.负责isearch基于大模型的内网知识问答开发相关工作；；\r\n2.参与大语言模型的对接和调优，持续提升模型效果和用户体验；；\r\n3.参与数据处理相关工作，对接内网多种数据源，并对各种富文本数据进行处理，持续提高文本处理质量；；\r\n4.参与embedding模型的召回优化工作，提升文本匹配的召回率；；\r\n5.跟踪、探索大模型领域的最新进展和落地优化，参与模型选型和技术升级；。"
+}
+{
+    "title": "混元大模型运营开发高级工程师（深圳/北京）",
+    "department": "TEG",
+    "address": "深圳\n                  ",
+    "post": "技术",
+    "date": "更新于2023年12月15日",
+    "recruit_data": "1.负责机器学习平台大模型数据标注系统研发；\r\n2.负责Web及APP数据补充能力建设；\r\n3.参与大模型数据管理、数据加工体系的建设及运营；\r\n4.参与大模型整体研发流程及运营系统建设。"
+}
+{
+    "title": "Lead Tools Engineer",
+    "department": "IEG",
+    "address": "尔湾\n                  ",
+    "post": "技术",
+    "date": "更新于2023年11月06日",
+    "recruit_data": "Help maintain a culture of fast iteration and practical problem solving.\nWork with IT teams to ensure a quality setup for all developers and pipelines.\nHelp maintain a culture of fast iteration and practical problem solving.\nManage a team of engineers and own quality of team deliverables.\nAct as Product Owner for shared service and tools vision and maintain product roadmap.\nCreate, monitor, and control metrics impacting product and team quality.\nEvolve iteratively existing systems into state-of-the-art solutions.\nWork closely with teammates to design and build performant, reliable and fast iteration tools using proven practices. \nEvolve iteratively existing systems into state-of-the-art solutions.\nWork closely with teammates to design and build performant, reliable and fast iteration tools using proven practices.\r\nWork Location: US-Irvine"
+}
+{
+    "title": "高级技术美术(Rigging方向)",
+    "department": "IEG",
+    "address": "深圳\n                  ",
+    "post": "设计",
+    "date": "更新于2023年11月20日",
+    "recruit_data": "1.开发和维护模块化Rigging系统；\r\n2.推动动画管道、工具和流程，包括关键帧动画和动作捕捉数据的批处理和程序流程；\r\n3.主动定位现有低效流程和潜在问题，推动动画管线的迭代更新；\r\n4.在 Maya、UE中开发动画模块相关工具；\r\n5.协助动画团队解决出现的动画问题。"
+}
+{
+    "title": "GNSS定位后端开发",
+    "department": "腾讯云智研发子公司",
+    "address": "武汉\n                  ",
+    "post": "技术",
+    "date": "更新于2023年11月30日",
+    "recruit_data": "1.参与地图数据自动化生产GNSS定位算法平台建设，负责GNSS定位算法模型的工程化和服务化，支持对内、对外提供服务接口；\r\n2.参与通用算法微服务框架及服务治理平台的研发和迭代，引进腾讯云等基础设施中间件，提升算法快速应用落地能力；\r\n3.参与算法模型部署架构设计，算法服务监控等关键架构问题和技术难题、推动技术革新，系统性能调优。"
+}
+{
+    "title": "TEG03-SRE(Singapore)",
+    "department": "TEG",
+    "address": "新加坡\n                  ",
+    "post": "技术",
+    "date": "更新于2023年08月23日",
+    "recruit_data": "Responsible for the operation and maintenance of big data cluster (Hadoop Hbase Hive Yarn Spark, etc.);\nResponsible for cluster performance optimization, expansion and contraction;\nResponsible for cluster monitoring and alarm, fault handling, data backup, user problem handling, etc.;\r\nWork Location: Singapore-WeWork"
+}
+{
+    "title": "运营开发高级工程师",
+    "department": "CSIG",
+    "address": "深圳\n                  ",
+    "post": "技术",
+    "date": "更新于2023年11月24日",
+    "recruit_data": "1.负责腾讯云大规模服务器从供应到运营各链路相应系统建设；\r\n2.负责腾讯云服务器业务与技术中台建设；\r\n3.负责海量服务器数据分析，建立完善的运营指标体系；\r\n4.理解业务需求，负责系统的代码实现、代码维护、迭代更新优化，保证任务质量和交付及时性；\r\n5.负责编写相关的技术文档、单元测试，对产品质量负责。"
+}
+{
+    "title": "腾讯广告内容广告高级算法工程师",
+    "department": "CDG",
+    "address": "深圳\n                  ",
+    "post": "技术",
+    "date": "更新于2023年12月14日",
+    "recruit_data": "1.负责流量收入，基于场景优化广告排序，提升流量变现效率；\r\n2.结合预算机会，建设流量匹配方案，提高预算渗透。"
+}
+{
+    "title": "腾讯视频跨模态AIGC推理加速工程师",
+    "department": "PCG",
+    "address": "北京\n                  ",
+    "post": "技术",
+    "date": "更新于2023年11月26日",
+    "recruit_data": "1.团队结合腾讯视频广阔的内容制作及宣发场景，致力于将先进的AIGC技术嵌入到影视、动漫等具体业务中，通过技术创新为用户带来的极致视觉冲击及丰富想象空间；\r\n2.在这里你将负责：跨模态AIGC的推理引擎开发和优化工作，实现业界领先的高并发、高可用、低延迟的大规模推理服务；\r\n3.和算法团队协同，推动深度学习相关算法在腾讯视频、动漫等核心业务场景的AIGC落地。"
+}
+{
+    "title": "大数据系统测试工程师（武汉/长沙/西安）",
+    "department": "腾讯云智研发子公司",
+    "address": "西安\n                  ",
+    "post": "技术",
+    "date": "更新于2023年12月11日",
+    "recruit_data": "1.负责大数据hadoop，spark，ES, hive，flink，clickhouse以及数据湖等相关产品的测试工作；\r\n2.分析产品相关需求、设计、架构等，设计测试方法和测试用例；\r\n3.挖掘并跟进实施性能测试、竞品对比测试、稳定性等专项测试，保障和提升产品质量；\r\n4.负责建设产品相关的自动化测试、Devops等工作；\r\n5.不断改进测试过程、方法和技术，提升产品质量；\r\n6.注：此岗位为腾讯集团旗下子公司编制岗位。"
+}
+{
+    "title": "腾讯专有云系统测试工程师",
+    "department": "腾讯云智研发子公司",
+    "address": "西安\n                  ",
+    "post": "技术",
+    "date": "更新于2023年11月16日",
+    "recruit_data": "1.负责腾讯专有云产品的需求和架构分析，测试设计和测试开发工作,包括IaaS，PaaS，SaaS,存储，网络等，包括但不限于功能，性能，可靠性，鲁棒性，升级部署验证，用户体验等系统测试；\r\n2.对测试方案进行有效的落地和执行，以确保项目进度和软件质量，形成自动化测试用例并进一步形成服务化提升效率；\r\n3.架构并实现IaaS，PaaS等产品自动化测试能力，提升产品测试和交付效率；\r\n4.不断提升测试过程，方法和技术，构建质量评估标准，优化改进措施，提升产品质量和效率；\r\n5.备注：此岗位为腾讯集团旗下子公司编制岗位。"
+}
+{
+    "title": "C++高级开发工程师(深度学习方向)",
+    "department": "PCG",
+    "address": "杭州\n                  ",
+    "post": "技术",
+    "date": "更新于2023年12月14日",
+    "recruit_data": "1.负责智能语音、数字人、AIGC等技术方向的深度学习云端推理引擎开发和优化工作；\r\n2.支持各相关AI算法的高质量落地，实现业界领先的高并发、高可用、低延迟的AI引擎服务。"
+}
+{
+    "title": "腾讯广告数据科学(分析方向（深圳/北京）)",
+    "department": "CDG",
+    "address": "深圳\n                  ",
+    "post": "技术",
+    "date": "更新于2023年12月12日",
+    "recruit_data": "1.针对腾讯广告业务，从全链路视角，对重难点问题、整体系统机制性问题开展分析研究，建设分析诊断工具；\r\n2.开展重点业务、战略性业务的分析研究，洞察问题和优化方向。"
+}
+{
+    "title": "应用宝后台开发工程师",
+    "department": "PCG",
+    "address": "北京\n                  ",
+    "post": "技术",
+    "date": "更新于2023年12月06日",
+    "recruit_data": "1.负责AIGC核心工程服务架构及评测体系建设，将业界领先的AIGC技术进行业务落地和性能优化，打造极致的用户体验；\r\n2.建设高性能、高可用、低延迟的异构计算系统，提升系统吞吐量和稳定性；\r\n3.负责关键模块进行抽象封装，优化系统部署方案，建立高效测试验证体系。"
+}
+{
+    "title": "编译器/虚拟机开发工程师",
+    "department": "TEG",
+    "address": "北京\n                  ",
+    "post": "技术",
+    "date": "更新于2023年11月22日",
+    "recruit_data": "1.参与TencentKonaJDK、Python虚拟机、深度学习编译器等产品研发，围绕大数据、广告推荐/AI、游戏等超大规模场景；\r\n2.参与自研静态/动态编译器、GC算法、深度学习编译等研发与优化，并参与OpenJDK等社区贡献。"
+}
+{
+    "title": "腾讯广告内容广告算法工程师",
+    "department": "CDG",
+    "address": "深圳\n                  ",
+    "post": "技术",
+    "date": "更新于2023年11月27日",
+    "recruit_data": "1.负责流量收入，基于场景优化广告排序，提升流量变现效率；\r\n2.结合预算机会，建设流量匹配方案，提高预算渗透。"
+}
+{
+    "title": "Global 基础设施高级研发工程师",
+    "department": "Overseas Functional System",
+    "address": "深圳\n                  ",
+    "post": "技术",
+    "date": "更新于2023年11月21日",
+    "recruit_data": "1.负责腾讯游戏海外基础设施相关系统设计、开发和优化；\r\n2.负责设计、开发多云环境基础设施调度平台，解决运营过程中质量和效率问题；\r\n3.负责设计、开发多云环境下的网络质量测速分析和优化工具平台，支持线上业务7*24小时的问题发现和调优。"
+}
+{
+    "title": "Uncapped Games – Technical Artist (All Levels)",
+    "department": "IEG",
+    "address": "洛杉矶\n                  ",
+    "post": "更新于2023年11月30日",
+    "date": "更新于2023年11月30日",
+    "recruit_data": "Uncapped Games of Tencent’s Lightspeed Studios is focused on creating an original, action-packed PC Real-Time Strategy game that has a low barrier to entry and is impossible to master.  Our ambitious group of passionate developers is looking for a knowledgeable and versatile Technical Artist to help us unlock the full potential of this project and push boundaries in the genre.\n\n Perks:\nFreedom to collaborate beyond the boundaries of your role\nHighly creative and collaborative start-up culture \nCompetitive pay and benefits\n\n What you’ll get to do:\nCollaborate with the Art and Engineering Teams to help build and support content tools and architecture\nSupport Art and UI needs in Unity (Data Implementation, Prefab Setup and Maintenance)\nHelp establish and build the Cosmetic Asset Database and validate the content therein\nHelp optimize and improve the Art Pipelines with DCC programs like Maya, Houdini and Substance\nLive Service pipeline work and maintenance\r\nWork Location: US-Los Angeles"
+}
+{
+    "title": "WeChat - Data Scientist",
+    "department": "WXG",
+    "address": "新加坡\n                  ",
+    "post": "更新于2023年11月21日",
+    "date": "更新于2023年11月21日",
+    "recruit_data": "Roles & Responsibilities\nTo look into both qualitative and quantitative data sets, perform analysis to derive problems and to build solutions through the use of machine learning and deep learning approaches\nCollect large sets of structured and unstructured data from independent sources, cleaning and validating the data to ensure accuracy, completeness, and uniformity\nAnalyzing the data to identify patterns or trends via Machine Learning, Deep Learning models to look for actionable insights, potential opportunities and/or threats to WeChat ecosystem\nInterpreting the data to discover solutions or opportunities and building a story-board to communicate such insights to the business for actions\r\nWork Location: Singapore-WeWork"
+}
+{
+    "title": "Database Reliability Engineer",
+    "department": "IEG",
+    "address": "洛杉矶\n                  ",
+    "post": "技术",
+    "date": "更新于2023年09月25日",
+    "recruit_data": "At the core of Tencent IEG (Interactive Entertainment Group)’s success are engineers that uphold integrity, collaborate whole heartedly, and actively seek out challenges with creative solutions.  Our mission is to make Tencent games globally available for all users anywhere or anytime through reliability as a service.  \n\nTencent IEG’s Database Reliability Engineers leverage software engineering skills to help solve complex distributed production live services challenges by actively engaging, mentoring, orchestrating and operating global services across multiple continents and timezones. You will have the opportunity to interface games services at a global scale through multiple cloud deployments, while consistently execute with excellence and consistency\n\nRole Definition A the Database Reliability Engineer, the focus will primarily be on how and execution of multiple games across the globe, with an emphasis on Tencent internal products and or collaborating with studios on future games that are yet to be released. \n\nResponsibilities\nStrong desire to eliminate toil by building tooling or automating away repetitive tasks or building cloud native solutions that will proactively mitigate problems before they arise. \n\nProvide subject matter expertise and on-call support for specific games and or platform services. Members of this rotation will respond to incidents that are critical to business or player issues \n\nCollaborate closely with fellow engineers, studios representatives while maintaining a strong working relationship based on trust, respect and empathy.  \r\nWork Location: US-Los Angeles"
+}
+{
+    "title": "加速后台开发工程师",
+    "department": "TEG",
+    "address": "深圳\n                  ",
+    "post": "技术",
+    "date": "更新于2023年11月03日",
+    "recruit_data": "1.负责腾讯云EdgeOne、CDN业务底层转发平台的研发和日常运营；\r\n2.产品服务于全球客户，为企业提供一站式网络加速和安全防护能力；\r\n3.技术上涉及：全球网络加速、安全攻防对抗、DNS、调度、Anycast等方向。"
+}
+{
+    "title": "腾讯云音视频测试工程师（西安）",
+    "department": "腾讯云智研发子公司",
+    "address": "武汉\n                  ",
+    "post": "技术",
+    "date": "更新于2023年12月11日",
+    "recruit_data": "1.负责腾讯云音视频产品的全流程质量管控工作，包括参与需求分析，帮助完善需求与开发设计实现，合理设计测试计划，实施测试活动，跟进缺陷，协助研发分析定位问题等；\r\n2.保证被测系统的质量，并通过测试流程和方法创新，提升研发的质量和效率；\r\n3.参与团队效率提升相关工作，包括但不限于自动化建设，环境维护，测试工具开发等；\r\n4.注：此岗位为腾讯集团旗下子公司编制岗位。"
+}
+{
+    "title": "DevOps Engineer (Site Reliability)",
+    "department": "IEG",
+    "address": "洛杉矶\n                  ",
+    "post": "技术",
+    "date": "更新于2023年09月21日",
+    "recruit_data": "At the core of Tencent IEG (Interactive Entertainment Group)’s success are engineers that uphold integrity, collaborate whole heartedly, and actively seek out challenges with creative solutions. Our mission is to make Tencent games globally available for all users anywhere or anytime through reliability as a service.  \n\nTencent IEG’s Site Reliability Engineers leverage software engineering skills to help solve complex distributed production live services challenges by actively engaging, mentoring, orchestrating and operating global services across multiple continents and timezones. You will have the opportunity to interface games services at a global scale through multiple cloud deployments, while consistently execute with excellence and consistency. \n\nAs the Site Reliability Engineer, the focus will primarily be on how to execute multiple games across the globe, with an emphasis on Tencent internal products and or collaborating with studios on future games that are yet to be released. \n\nResponsibilities:\nStrong desire to eliminate toil by building tooling or automating away repetitive tasks or building cloud native solutions that will proactively mitigate problems before they arise. \n\nProvide subject matter expertise and on-call support for specific games and or platform services. Members on this rotation will respond to incidents that are critical to business or player issues \n\nCollaborate closely with fellow engineers, studios representatives while maintaining a strong working relationship based on trust, respect and empathy.  \r\nWork Location: US-Los Angeles"
+}
+{
+    "title": "业管与合规检测经理/高级经理",
+    "department": "S1",
+    "address": "深圳\n                  ",
+    "post": "战略与投资",
+    "date": "更新于2023年10月31日",
+    "recruit_data": "1.对公司金融科技业务相关内部控制建立与操作情况、及业务开展的合规性、适当性、有效性进行检查；\r\n2.独立制定产品检查计划（包括但不限于金融合规、法律合规风险专项检查等）、运用检测手段跟进重点业务策略制定及落地执行情况，识别风险问题点，出具检查报告并跟进整改措施落实。"
+}
+{
+    "title": "算法研究员(广告)",
+    "department": "PCG",
+    "address": "深圳\n                  ",
+    "post": "技术",
+    "date": "更新于2023年11月27日",
+    "recruit_data": "1.负责多产品线手游、云游、小游戏中台化商业推荐能力研发；\r\n2.负责粗排、精排方向的算法优化工作；\r\n3.研究和解决多产品线联合建模中面临的各种问题(场景提炼、负迁移、样本管线稳定性等）；\r\n4.结合游戏回流推荐的产品功能，建设回流推荐的排序策略。"
+}
+{
+    "title": "高级\\资深技术美术(程序化生成方向)",
+    "department": "IEG",
+    "address": "深圳\n                  ",
+    "post": "设计",
+    "date": "更新于2023年11月20日",
+    "recruit_data": "1.负责Unreal或Unity引擎中的程序化生成工具开发及维护；\r\n2.负责通过程序化工具的研发和制作流程的优化，提高项目生产效率和品质；\r\n3.负责对接项目需求，解决项目遇到的相关问题；\r\n4.负责技术Demo的制作。"
+}
+{
+    "title": "腾讯游戏高级海外运营经理",
+    "department": "IEG",
+    "address": "深圳\n                  ",
+    "post": "产品",
+    "date": "更新于2023年12月15日",
+    "recruit_data": "1.负责公司出海游戏的投放及数据分析，并能制定投放策略，预算规划等；\r\n2.监控广告数据，定期进行数据分析和总结，不断优化推广效果，对投放结果负责；\r\n3.能够及时了解广告平台最新动态，并有效探索和优化，向团队输出成果。"
+}
+{
+    "title": "腾讯广告特征算法高级工程师",
+    "department": "CDG",
+    "address": "深圳\n                  ",
+    "post": "技术",
+    "date": "更新于2023年10月30日",
+    "recruit_data": "1.负责基于pytorch/tensorflow实现多模态算法从广告文案/图片/视频中挖掘广告特征；\r\n2.负责广告特征在广告全链路模型及策略应用效果分析。"
+}
+{
+    "title": "腾讯广告数据挖掘算法工程师",
+    "department": "CDG",
+    "address": "深圳\n                  ",
+    "post": "技术",
+    "date": "更新于2023年12月05日",
+    "recruit_data": "1.针对腾讯广告，对腾讯内容进行挖掘与理解，利用数据挖掘技术，如机器学习、深度学习、特别是大语言模型技术，不断提升内容理解的召回率与准确率；\r\n2.负责腾讯广告用户特征生产，结合广告业务场景，不断挖掘有价值的用户特征，从而提升广告收入。"
+}
+{
+    "title": "Data Scientist Associate 102388",
+    "department": "IEG",
+    "address": "帕罗奥多\n                  ",
+    "post": "技术",
+    "date": "更新于2023年12月03日",
+    "recruit_data": "About Tencent\nTencent is a world-leading internet and technology company that develops innovative products and services to improve the quality of life of people around the world. Founded in 1998 with its headquarters in Shenzhen China, our guiding principle is to use technology for good. We are not only a major video game publisher in the world, we also produce other high-quality digital content, enriching interactive entertainment experiences for people around the globe. We offer a range of services such as cloud computing, advertising, FinTech, and other enterprise services to support our clients' digital transformation and business growth. \n\nAbout IEG\nInteractive Entertainment Group (IEG) is responsible for the R&D, operation, and development of the company's interactive entertainment business including games and eSports. Through online gaming, live broadcasts, and offline eSports, IEG assists the company in leading the global interactive entertainment market to create better interactive entertainment content experiences for users.\n\nResponsibilities:\nJoin a highly skilled data science team to solve challenging problems and deliver scalable solutions in game development, publishing, and live-ops. \nEstablish scalable, efficient, automated processes and deliver end-to-end data products with large-scale data analysis, experimentation, machine learning model development, validation, and serving. \nInteract cross-functionally with various teams and provide actionable business insights to stakeholders. \nResearch new approaches in the field of machine learning, experimentation, statistics, etc. \nPassionate about gaming and the gaming industry! \r\nWork Location: US-Palo Alto"
+}
+{
+    "title": "虚拟人算法工程师",
+    "department": "TEG",
+    "address": "深圳\n                  ",
+    "post": "技术",
+    "date": "更新于2023年12月03日",
+    "recruit_data": "1.负责三维数字人、三维生成等相关领域的前沿研究与开发，针对应用场景研发最新的CV、CG算法，快速复现学界业界最新的算法并提出改进方案，并和工程师一起将前沿算法优化至可商用的程度；\r\n2.研究和开发用来高保真的3D人脸和人体建模、驱动、渲染、动画相关的算法 在顶级会议或期刊上发表计算机视觉和图形学高质量学术论文。"
+}
+{
+    "title": "NLP senior researcher",
+    "department": "IEG",
+    "address": "新加坡\n                  ",
+    "post": "技术",
+    "date": "更新于2022年12月07日",
+    "recruit_data": "1. Design and build NLP algorithms for semantic analysis, intent recognition, chatbot, machine translation, knowledge graph, named-entity recognition.\n2. Conduct research to advance the state of the art in NLP and create technical solutions at scale to real world challenges in various application scenarios.\n3. Design and build NLP algorithms for semantic analysis, intent recognition, chatbot, machine translation, knowledge graph, named-entity recognition. Singapore-CapitalSpring | Singapore-WeWork"
+}
+{
+    "title": "微信视频号算法工程师(音频方向)",
+    "department": "WXG",
+    "address": "北京\n                  ",
+    "post": "技术",
+    "date": "更新于2023年11月13日",
+    "recruit_data": "1.负责微信生态下的音频推荐，进行个性化分发；\r\n2.负责策略、精排、粗排、召回等链路优化；\r\n3.针对业务目标，通过数据分析发现优化方向，推动整体效果的优化。"
+}
+{
+    "title": "Senior Technical Artist",
+    "department": "IEG",
+    "address": "东京\n                  ",
+    "post": "设计",
+    "date": "更新于2023年11月05日",
+    "recruit_data": "WORK DUTIES\nWorkflow construction and maintenance\nTool production and maintenance for business efficiency\nMaking proposals and doing technical research for improving graphic quality for our partners\nRaise the level of art by accumulating knowledge of the latest TechArt trends from GDC, SIGGRAPH, and other publications, and sharing this knowledge with partners.\nIf necessary, work with partners onsite to resolve issues together.\r\nWork Location: Japan-Tokyo-Toranomon"
+}
+{
+    "title": "《异人之下》高级动作向技术美术",
+    "department": "IEG",
+    "address": "深圳\n                  ",
+    "post": "设计",
+    "date": "更新于2023年12月09日",
+    "recruit_data": "1.协助美术同学，完成标杆角色的身体及表情绑定；\r\n2.与美术、程序合作，开发并测试复杂动画系统，推动新技术方案的落地；\r\n3.开发DCC及引擎中的动画工具，提高生产效率；\r\n4.参与并监督动画资源的引擎合入，确保符合技术规范；\r\n5.支持动作管线，解决制作中遇到的技术问题。"
+}
+{
+    "title": "微信视频号高级/专家推荐算法工程师(直播/直播带货)",
+    "department": "WXG",
+    "address": "广州\n                  ",
+    "post": "技术",
+    "date": "更新于2023年12月08日",
+    "recruit_data": "1.负责视频号直播及直播带货推荐，对召回、粗排、精排、策略等链路进行优化；\r\n2.结合业务的实际特点将工业界、学术界的前沿技术落地提升业务效果；\r\n3.对用户和作者行为做深入的分析和理解，制定算法策略促进生态良性发展。"
+}
+{
+    "title": "微信视频号高级/专家推荐算法工程师(直播/直播带货)",
+    "department": "WXG",
+    "address": "深圳\n                  ",
+    "post": "技术",
+    "date": "更新于2023年12月08日",
+    "recruit_data": "1.负责视频号直播及直播带货推荐，对召回、粗排、精排、策略等链路进行优化；\r\n2.结合业务的实际特点将工业界、学术界的前沿技术落地提升业务效果；\r\n3.对用户和作者行为做深入的分析和理解，制定算法策略促进生态良性发展。"
+}
+{
+    "title": "腾讯云高级研发工程师",
+    "department": "CSIG",
+    "address": "深圳\n                  ",
+    "post": "技术",
+    "date": "更新于2023年12月06日",
+    "recruit_data": "1.负责腾讯云核心产品的设计与开发；\r\n2.负责系统的技术架构，设计和落地必要的工具和机制，保障系统的稳定性、可用性、安全性；\r\n3.负责平台的性能优化，系统地分析定位性能瓶颈，确保各性能指标保持业界领先。"
+}
+{
+    "title": "Game Tech R&D Engineer 101735",
+    "department": "IEG",
+    "address": "伦敦\n                  ",
+    "post": "技术",
+    "date": "更新于2023年11月30日",
+    "recruit_data": "- Collaborate to design and develop various type of game development tools and middleware.\n- Enabling game studio partners to easily develop, integrate, test, and validate their games with the Tencent games platform.\n- Work closely with R&D teams and product management as we iterate and innovate the SAAS for the game industry.\n- Technical designs, documentation, tutorials, and sample apps.\r\nWork Location: UK-London"
+}
+{
+    "title": "腾讯乐享高级后台开发工程师",
+    "department": "CSIG",
+    "address": "深圳\n                  ",
+    "post": "技术",
+    "date": "更新于2023年12月07日",
+    "recruit_data": "1.负责腾讯乐享的研发工作，分析系统相关需求、设计技术架构、落地技术方案；；\r\n2.挖掘并跟进系统性能、稳定性、可靠性等的优化，持续保障和提升产品质量；；\r\n3.跟进研发规范和技术体系建设，不断提升研发效率。。"
+}
+{
+    "title": "Senior Tools Engineer",
+    "department": "IEG",
+    "address": "尔湾\n                  ",
+    "post": "技术",
+    "date": "更新于2023年12月06日",
+    "recruit_data": "• Help maintain a culture of fast iteration and practical problem solving\n• Work with content creator teams to identify tools workflow issues and implement solutions to address them\n• Evolve iteratively existing systems into state of the art solutions\n• Work closely with teammates to design and build performant, reliable and fast iteration tools using proven practices\r\nWork Location: US-Irvine"
+}
+{
+    "title": "腾讯云BMC开发高级工程师",
+    "department": "CSIG",
+    "address": "深圳\n                  ",
+    "post": "技术",
+    "date": "更新于2023年11月28日",
+    "recruit_data": "1.看护BMC子系统的架构；\r\n2.同时对BMC领域的设计质量、数据中心部署应用效果负责；\r\n3.与产品团队和维护团队合作，收集BMC相关需求，确保BMC设计能够很好地支持大规模部署和维护；\r\n4.基于开源社区openbmc代码的需求开发，包括环境配置、编译、设计、编码、验证等工作；\r\n5.与OEM / ODM合作伙伴合作，制定BMC的设计方案，验证计划，确保设计可行，交付质量符合项目目标的BMC；\r\n6.负责openbmc分支的总体架构定义及维护，定义与数据中心管理系统接口的规范。"
+}
+{
+    "title": "金融科技风险模型分析师",
+    "department": "CDG",
+    "address": "深圳\n                  ",
+    "post": "技术",
+    "date": "更新于2023年11月20日",
+    "recruit_data": "1.通过机器学习建模与数据挖掘有效识别支付领域各类违法犯罪风险（如涉赌、欺诈、洗钱）并进行实时打击，控制风险大盘；\r\n2.同时基于上下游信息，对风险手法及链路进行识别，挖掘并打击可疑团伙。"
+}
+{
+    "title": "QQ空间产品运营",
+    "department": "PCG",
+    "address": "深圳\n                  ",
+    "post": "产品",
+    "date": "更新于2023年11月15日",
+    "recruit_data": "1.负责QQ空间功能运营以及活动策划，核心指标是提升QQ空间DAU以及用户留存率；\r\n2.负责QQ空间用户使用行为的深度挖掘，更好的发现和拓展用户需求；\r\n3.负责QQ空间功能或活动问题的处理和跟进，确保问题的快速解决。"
+}
+{
+    "title": "《异人之下》新游客户端性能测试工程师",
+    "department": "IEG",
+    "address": "深圳\n                  ",
+    "post": "技术",
+    "date": "更新于2023年12月15日",
+    "recruit_data": "1.负责游戏客户端性能测试工作，包括测试设计和执行、性能问题分析、流程和自动化建设等；\r\n2.负责开发、优化客户端性能测试相关的执行或分析类工具，提升测试质量和效率；\r\n3.负责收集和分析业务测试需求，探索更多的测试方法。"
+}
+{
+    "title": "腾讯广告视频与新闻广告算法工程师",
+    "department": "CDG",
+    "address": "深圳\n                  ",
+    "post": "技术",
+    "date": "更新于2023年12月15日",
+    "recruit_data": "1.腾讯社交与效果广告算法策略研究、设计与实现，参加以下一到多项工作；\r\n2.广告排序算法的研究，流量效率的挖掘和提升；\r\n3.信息流广告用户行为分析，特征提取与建模，优化线上效果；\r\n4.广告推荐模型的效果优化，提升推荐准确性。"
+}
+{
+    "title": "自然语言处理算法工程师",
+    "department": "CDG",
+    "address": "北京\n                  ",
+    "post": "技术",
+    "date": "更新于2023年12月14日",
+    "recruit_data": "1.负责搜索广告召回/相关性的在线和离线算法研发及持续优化，通过算法改进不断提升广告变现效率和用户体验，包括但不限于：召回模型优化、语义计算模型优化、大模型训练&应用等。"
+}
+{
+    "title": "腾讯广告行业算法策略工程师",
+    "department": "CDG",
+    "address": "北京\n                  ",
+    "post": "技术",
+    "date": "更新于2023年12月12日",
+    "recruit_data": "1.基于内外部数据，运用统计学、机器学习、计算广告等多个领域知识，对oCPA广告成本达成率、起量等多个关键指标进行垂直行业的问题分析和定位；\r\n2.研发行业算法策略，包括但不限于设计和实现广告起量策略、分行业模型校准、行业EE算法等，进行召回/粗排/精排全链路优化，提升行业效果和收入。"
+}
+{
+    "title": "腾讯广告策略算法工程师",
+    "department": "CDG",
+    "address": "上海\n                  ",
+    "post": "技术",
+    "date": "更新于2023年12月12日",
+    "recruit_data": "1.基于内外部数据，运用统计学、机器学习、计算广告等多个领域知识，对oCPA广告成本达成率、起量等多个关键指标进行垂直行业的问题分析和定位；\r\n2.研发行业算法策略，包括但不限于设计和实现广告起量策略、分行业模型校准、行业EE算法等，进行召回/粗排/精排全链路优化，提升行业效果和收入。"
+}

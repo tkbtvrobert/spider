@@ -1,0 +1,30 @@
+import requests
+
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) '
+                  'Chrome/119.0.0.0 Mobile Safari/537.36',
+    'Cookie':'BAIDUID=6CD59DC7C9B42B73C17048401980628F:FG=1; BAIDUID_BFESS=6CD59DC7C9B42B73C17048401980628F:FG=1; '
+             'BDUSS=3BYWnFiZXpQQXdKZmtHZm9TLU4wZGs4YnR5NGZyUXBlWEs2bHVDWGZ1cGVpRTFsSVFBQUFBJCQAAAAAAAAAAAEAAACeRULE57'
+             'PR5rvD0akAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF77JWVe-yVlQ; '
+             'BDUSS_BFESS=3BYWnFiZXpQQXdKZmtHZm9TLU4wZGs4YnR5NGZyUXBlWEs2bHVDWGZ1cGVpRTFsSVFBQUFBJCQAAAAAAAAAAAEAAACe'
+             'RULE57PR5rvD0akAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF77JWVe-yVlQ; '
+             'ZD_ENTRY=google; BIDUPSID=6CD59DC7C9B42B73C17048401980628F; PSTM=1698934496; '
+             'BA_HECTOR=250g00a50k858g040l000l2h1ik7bnl1r; ZFY=qPfiWnhIzf:B7QOx8zFOKSNSOCmeA2HmLejLMp:BynUOI:C; '
+             'Hm_lvt_64ecd82404c51e03dc91cb9e8c025574=1698986265; APPGUIDE_10_6_6=1; REALTIME_TRANS_SWITCH=1; '
+             'FANYI_WORD_SWITCH=1; HISTORY_SWITCH=1; SOUND_SPD_SWITCH=1; SOUND_PREFER_SWITCH=1; '
+             'Hm_lvt_afd111fa62852d1f37001d1f980b6800=1698986338; Hm_lpvt_afd111fa62852d1f37001d1f980b6800=1698986831; '
+             'Hm_lpvt_64ecd82404c51e03dc91cb9e8c025574=1698986831'
+}
+
+url = 'https://fanyi.baidu.com/basetrans'
+
+post_data = {
+    'query': 'happy',
+    'from': 'en',
+    'to': 'zh',
+    'token': 'f45b5bdbd5e4f79a505bbb8dac5a44a7',
+    'sign': '221212.492333'
+}
+
+response = requests.post(url, headers=headers, data=post_data).json()
+print(response['trans'][0]['dst'])

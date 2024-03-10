@@ -1,0 +1,14 @@
+setup.py
+jc_info/__init__.py
+jc_info/items.py
+jc_info/middlewares.py
+jc_info/pipelines.py
+jc_info/push_start_url.py
+jc_info/settings.py
+jc_info.egg-info/PKG-INFO
+jc_info.egg-info/SOURCES.txt
+jc_info.egg-info/dependency_links.txt
+jc_info.egg-info/entry_points.txt
+jc_info.egg-info/top_level.txt
+jc_info/spiders/__init__.py
+jc_info/spiders/jc.py
