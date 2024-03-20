@@ -1,0 +1,23 @@
+
+
+
+关键字定位:
+    找这个数据的加密位置:Requestid
+    Requestid = shjkdfghjkhsdf
+    Requestid : sdkhfjksd
+    setRequestHead('Requestid', 'asdkfhhjksd')
+
+
+    搜索关键字的好处: 离加密位置更加近  有运气成分
+    坏处:  搜索文件会特别的多  需要下断点来进行测试
+
+    可能会搜索不出来
+        1.代码做了混淆
+        2.关键字拼接   'an' + 'al' + 'ysis'
+
+
+代码执行权重
+    // 0  权重可刪
+    (0, i[jt])(0, i[qt])(a, d))
+    i[jt] 实际上就是方法的引用
+    i[jt](i[qt](a, d))

@@ -1,0 +1,29 @@
+
+
+看准网:
+
+    获取的是一个16位长度的随机数
+    s = (0,
+                M._A)()
+
+
+
+    t = (0,
+    M.mA)(n, {
+        iv: s
+    }).replace(/\//g, "_").replace(/\+/g, "-").replace(/=/g, "~")))
+
+
+m3u8
+
+
+des盒的概念     s盒
+
+16位长度的随机数的function p
+p = function (e) {
+    void 0 === e && (e = 16);
+    for (var t = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".split(""), n = "", r = 0; r < e; r++) {
+        n += t[Math.ceil(61 * Math.random())]
+    }
+    return n
+}

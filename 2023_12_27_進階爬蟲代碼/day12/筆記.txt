@@ -1,0 +1,18 @@
+sm2 非對稱加密 有一組公鑰和私鑰 rsa dsa
+sm3 哈希加密 md5 sha hmac
+sm4 對稱加密 加解密都使用同一個密鑰 des aes
+
+sm加密建議使用扣代碼的方式，沒有一個實踐規範在
+
+e.location.protocol = 'http'
+是用來判斷環境的
+
+execjs._exceptions.ProgramError: TypeError: signData is not a function
+有可能是函數命名問題
+function signData(t) {}
+function encData(e) {}
+signData = signData(data)
+encData = encData(data)
+變成下面就好
+signData1
+encData1

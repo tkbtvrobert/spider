@@ -1,0 +1,45 @@
+
+瑞数  400 状态码 檢測路徑問題
+瑞數網站會檢測js文件來源
+delete __dirname
+delete __filename
+- __dirname：     總是回傳被執行 js 檔所在資料夾的絕對路徑
+- __filename：    總是回傳被執行 js 檔的絕對路徑
+
+if (res == 'div') {
+            return {
+                getElementsByTagName: function (res) {
+                    console.log('div中的getElementsByTagName接受的參數:', res);
+                    if (res == 'i') {
+                        return []
+                    }
+                }
+            }
+        } else {
+            return {}
+        }
+這次很大的問題點就是content和自執行方法沒有統一
+還有div沒加上else {return {}}
+
+瑞数5
+    两次debugger     响应状态码  412
+    键值对特点
+    ihkYnttrQXfVO
+    ihkYnttrQXfVP   值的第一个参数  5
+    外链js文件      ts代码
+
+
+13k
+
+瑞数6
+    debugger  3次
+    键名字
+    hvAJjymUYBa3O
+    hvAJjymUYBa3P   值的第一个参数  6
+    外链文件    自执行方法
+
+
+提前约定一下，遇到如下图这种windows 某个属性 undefind的，如果是函数，我们就暂时补充一个空函数,打印入参即可，如果是字段，先去官网调试下是什么类型的，一般就是对象类型或者字符串，直接补空的即可。
+
+如果是$开头的属性呢，直接跳过就好啦，因为正常来说windows 不会有这些属性
+

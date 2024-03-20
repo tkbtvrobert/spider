@@ -1,0 +1,51 @@
+
+
+
+webpack 打包
+注意点：
+    1.需要把webpack打包的全部加载器都拿过来
+    2.局部变量导出成全局变量    导出加载器
+    // a()
+    bc = n;
+    3.加载的方法在调用的加载器，执行的原因是在调用的过程中加载器当做参数传递给了正在调用的函数
+
+
+webpack格式
+!function (e) {
+    加載器
+}(接收的參數)
+
+接收的參數是空數組，通常是其他文件加載過來的
+其他文件push過來的
+
+注意加載器的
+r = n(15)
+o = n(5)
+n[5]也可以用n['5']來呼叫
+意思是n[5]和n[15]，第五和第十五模塊，如果我們只把需要的模塊取出，順序上就會有落差，把第五模塊放進我們的加載器中的參數，就會變成從0開始
+這時我們可以用 5: function(e, t, n) {...} 來指定，數組下標改成對象的形式
+var bc;
+window = {}
+!function(e) {...}({
+    5: function(e, t, n) {...}
+});
+
+bc(5)
+
+如果是數組會從0開始，故只能把bc(5) => bc(0)
+
+function n(t) {
+    if (c[t])
+        return c[t].exports;
+    var a = c[t] = {
+        i: t,
+        l: !1,
+        exports: {}
+    };
+    console.log(t);
+    return e[t].call(a.exports, a, a.exports, n),
+    a.l = !0,
+    a.exports
+}
+
+可以用console.log(t); 方式查詢缺少的模塊

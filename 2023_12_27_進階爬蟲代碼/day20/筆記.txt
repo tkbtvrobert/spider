@@ -1,0 +1,29 @@
+
+
+自己需要解析的js代码  放在run文件夹  需要导出的代码进行导出
+
+在lastDeal.js文件进行调用
+
+
+
+在主函数进行调用  main.js
+代码逻辑
+function ths(){
+    const codeTest=`${configCode}${log_code}${toolsCode}${envCode}${globadlThis}${globalInit}${userInit}${proxyObj};;${jscode}${asyncCode};console.table(myloglist);debugger;${last_deal}`
+    const script = new VMScript(codeTest, "./debugJS.js")
+    const result = vm.run(script);
+    console.log(result)
+    fs.writeFileSync(`${run_path}/output.js`,codeTest)
+}
+
+ths()
+
+主函数需要去导出你自己执行的js代码   这个js代码是你补环境的
+
+
+printLog.js 配置对应的日志文件  可以用来找报错信息
+
+
+config.js 配置对应的网站基本参数  href ua  等等
+
+

@@ -1,0 +1,26 @@
+
+
+
+
+今日头条
+
+
+window.byted_acrawler.sign(n, o)
+e.y > 0 ? K(b, e.c, e.l, f, e.z, this, null, 0) : (e.y++,
+                                K(b, e.c, e.l, f, e.z, this, null, 0))
+
+var glb;
+glb._$jsvmprt = funtion()
+
+
+抖音
+
+(_0x2458f0 = _0xcc6308[_0x2e1055--])['x'] === _0x1218ef ?
+ _0x2458f0['y'] >= 0x1ef7 + 0x1968 + 0x25 * -0x186
+ ? _0xcc6308[++_0x2e1055] = _0x5f1fc4(_0x2232d0, _0x2458f0['c'], _0x2458f0['l'], _0x1f1790, _0x2458f0['z'], _0xc26b5e, null, -0x46c + -0x14 * 0x2a + 0x7b5)
+ : (_0xcc6308[++_0x2e1055] = _0x5f1fc4(_0x2232d0, _0x2458f0['c'], _0x2458f0['l'], _0x1f1790, _0x2458f0['z'], _0xc26b5e, null, -0x3 * -0x271 + 0x2 * -0xf19 + 0x16df),
+                                            _0x2458f0['y']++)
+                                            : _0xcc6308[++_0x2e1055] = _0x2458f0['apply'](_0xc26b5e, _0x1f1790);
+
+
+

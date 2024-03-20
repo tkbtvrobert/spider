@@ -1,0 +1,51 @@
+
+
+
+变化的请求关键字:
+    setRequestHeader('键', 值)
+    header['键'] = '值'
+    headers = {'键': 值}
+
+
+企查查笔记
+    请求头键的生成
+        最外层
+        i = (0,a.default)(t, e.data)
+        里层
+        (0,o.default)(t + n, (0,a.default)(t)).toLowerCase().substr(8, 20)
+
+        (0,a.default)(t)
+            i.default = function() {
+                for (var e = (arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : "/").toLowerCase(), t = e + e, n = "", i = 0; i < t.length; ++i) {
+                    var a = t[i].charCodeAt() % o.default.n;
+                    n += o.default.codes[a]
+                }
+                return n
+            }
+
+        o.default
+            hamc512的加密
+
+
+     请求头  值
+        l = (0,r.default)(t, e.data, (0,s.default)())
+
+        0,r.default
+            (0,o.default)(n + "pathString" + i + t, (0,a.default)(n))
+
+            0,a.default
+                i.default = function() {
+                for (var e = (arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : "/").toLowerCase(), t = e + e, n = "", i = 0; i < t.length; ++i) {
+                    var a = t[i].charCodeAt() % o.default.n;
+                    n += o.default.codes[a]
+                }
+                return n
+                    }
+
+
+异或
+    1010100101010
+    0010101010100
+    1000001111110
+
+

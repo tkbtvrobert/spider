@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="box" type="text">
+<button onclick="ps()">发送</button>
+
+<script>
+    // 创建连接   绑定ip和端口
+    var websocket = new WebSocket('ws://127.0.0.1:8080')
+
+    // 连接失败调用
+    websocket.onerror = () => {
+        console.log('请求连接失败')
+    }
+    // 连接成功调用方法
+    websocket.onopen = function () {
+        console.log('连接成功')
+    }
+
+
+    // 接受服务端的消息
+    websocket.onmessage = function (event) {
+        console.log('接受到服务端发送的消息', event)
+    }
+
+    function ps() {
+        var text = document.getElementById('box').value;
+        websocket.send(text)
+    }
+
+
+</script>
+</body>
+</html>

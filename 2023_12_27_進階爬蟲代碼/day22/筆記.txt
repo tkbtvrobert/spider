@@ -1,0 +1,109 @@
+
+
+瑞数
+
+    瑞数4代
+        特点 : 两次请求   状态码202      返回的是html页面     自执行函数
+        响应的 cookie键        FSSBBIl1UgzbN7N80S
+        前一个页面生成的 cookie FSSBBIl1UgzbN7N80T
+        debugger   需要过两次
+
+這狀態下過無限debugger
+(function() {
+    var a = new Date();
+    debugger ;return new Date() - a > 100;
+}())
+
+建構函數無限debugger
+var _constructor = constructor;
+Function.prototype.constructor = function(s) {
+    if (s == "debugger") {
+        console.log(s);
+        return null;
+    }
+    return _constructor(s);
+}
+
+function aa() {
+    console.log('123');
+}
+aa()
+因為eval產生了新的vm文件
+vm文件有對應的js代碼
+js代碼在aa()中生成的
+我們可以去追蹤vm文件前一個棧堆，在那邊調用了eval方法，並把我們需要的js代碼放進去調用
+eval('function aa() {\n' +
+    '    console.log(\'123\');\n' +
+    '}aa()')
+eval的入口
+ret = _$vt.call(_$dp, _$e9);
+
+如果要下斷點，如果斷點不再剛剛的位置，代表重新載入都會是新的文件
+要用替換的方式解決
+
+我們可以透過eval(js代碼)獲得cookie，最後一定會賦值在document中
+我們只要document.cookie這樣去取得cookie即可
+
+我們直接拿自執行方法來生成cookie
+自執行方法 -> 自動調用call方法 -> 生成vm文件和js代碼 -> 補環境 -> 生成cookie
+
+外鏈是固定的
+自執行方法是會變化的
+
+解決瑞數的思路在於固定的外鏈js和自執行方法
+
+在call上下斷點，會發現可以直接跳到斷點那邊，就代表外面沒問題，問題在於call生成出的環境有問題
+
+方法: get   对象: document   属性: createElement   属性类型: string   属性值类型: undefined
+去查查createElement是什麼
+https://developer.mozilla.org/zh-TW/docs/Web/API/Document/createElement
+createElement是個函數
+createElement: function (res) {
+        console.log('document中的createElement接受的參數:', res);
+}
+document中的createElement接受的參數: div
+此時要補上div
+標籤就是一個對象數組
+一個標籤就是一個空對象，補上空對象
+因為可能創建很多個標籤，故用if來判斷
+if (res == 'div'){
+    return {}
+}
+發現TypeError: _$KW[_$1N[93]] is not a function
+對call下斷點，進入詳情頁(進入下一個函數調用)
+在vm文件中找到_$KW[_$1N[93]]
+_$KW = _$sZ[_$1N[92]]('div')
+, _$Pf = _$KW[_$1N[93]]('i');
+在_$Pf = _$KW[_$1N[93]]('i')下斷點
+在"createElement"創建的div標籤中找用"getElementsByTagName"找i元素
+_$KW[_$1N[93]]('i')是個空列表
+
+如果發現說錯誤是在else中要考慮if是否有進入過，是不是他的原因造成走else，在if也下一個斷點
+一定要和網頁對應來補，而不是說缺什麼就直接補
+
+document中的getElementsByTagName接受的參數: meta
+可以用[{}, {}]或是{0:{}, 1:{}}來補
+
+當有時找不到報錯原因，可先把捕的那行先注釋
+發現_$sZ[_$1N[93]] is not a function
+查找網頁後發現_$sZ[_$1N[93]]有4個，我們要找的東西是meta，才是我們要的
+var _$zC = _$sZ[_$1N[93]](_$1N[165]);
+_$1N[165]是"meta"
+原本是數組，用對象來補要加length
+補數組 []，補對象 {length: 0}
+i=[] 和 i={length: 0} 是一樣的，如果用 i={}，裡面本身是沒有 length 的值
+
+從網頁上發現meta數組1沒用到，然後數組2裡面要增加parentNode裡面的"removeChild"
+此處parentNode不能直接補方法，因為我們是要調用裡面的屬性"removeChild"
+
+document中的getElementsByTagName接受的參數: script
+要去網頁上確認document.getElementsByTagName('script')取得是哪個
+
+發現_$zC[_$0l][_$1N[4]] is not a function
+首先找到"getAttribute"因為沒下一層，故此處補方法
+再來是parentElement補得是對象，因為還有下一層"removeChild"
+
+最好是能把undefined都補一補
+
+只有出現 FSSBBIl1UgzbN7N80T=True 的原因
+就是因為content和自執行方法沒有統一

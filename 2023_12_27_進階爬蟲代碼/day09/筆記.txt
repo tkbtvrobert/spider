@@ -1,0 +1,10 @@
+
+
+rsa 非对称加密算法
+    定位方式:JSEncrypt, encrypt, password
+    搜這關鍵字JSEncrypt可能分不出對稱還是非對稱
+    直接搜encrypt來定位
+
+window = global;
+navigator = {}
+navigator.appName = 'Netscape'

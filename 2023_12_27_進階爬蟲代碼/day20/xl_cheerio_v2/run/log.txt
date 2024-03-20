@@ -1,0 +1,119 @@
+===============================================================================================================
+===============================================================================================================
+===============================================================================================================
+===============================================================================================================
+======================================调         试        代          码======================================
+===============================================================================================================
+===============================================================================================================
+===============================================================================================================
+===============================================================================================================
+'[Document_head_get]正在执行,错误信息Cannot read properties of undefined (reading '_tagelements')'
+'[Document_head_get]正在执行,错误信息Cannot read properties of undefined (reading '_tagelements')'
+Document_getElementsByTagName tagName->head  taglist->[object HTMLHeadElement]
+Document_createElement tagName->div [object HTMLDivElement]
+EventTarget_addEventListener type->wheel callback->function S(n) {
+                h++
+            } options->  
+EventTarget_addEventListener type->mousemove callback->function T(n) {
+                d++
+            } options->  
+EventTarget_addEventListener type->touchmove callback->function T(n) {
+                d++
+            } options->  
+EventTarget_addEventListener type->click callback->function M(n) {
+                var t, r, e;
+                t = r = e = a;
+                var o, i, u;
+                o = i = u = c;
+                var s = (S,
+                A,
+                u[36]);
+                g++,
+                y = void 0 == n[s + z] || n[J + nn],
+                m = n[ot(r[142], o[84])],
+                I = n[i[176]]
+            } options->  
+EventTarget_addEventListener type->keydown callback->function b(n) {
+                w++
+            } options->  
+Navigator_plugins_get plugin->[object PluginArray]  
+Document_cookie_set cookie -> checkcookie=true
+Document_cookie_get cookie -> [object Object]
+Document_cookie_set cookie -> checkcookie=
+Document_cookie_get cookie -> [object Object]
+Storage_getItem key->hexin-v item->undefined  
+Navigator_userAgent_get Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36  
+Navigator_javaEnabled false  
+Navigator_webdriver_get== false  
+Navigator_doNotTrack_getundefined未完善
+Navigator_language_get zh-CN  
+Document_createElement tagName->canvas [object HTMLCanvasElement]
+HTMLCanvasElement_getContext webgl2属性未实现  
+Navigator_languages_get zh-CN,zh  
+Navigator_platform_get Win32  
+Navigator_vendor_get Google Inc.  
+Navigator_plugins_get plugin->[object PluginArray]  
+Navigator_plugins_get plugin->[object PluginArray]  
+location_href_get  http://www.fangdi.com.cn/   
+location_hostname_get www.fangdi.com.cn   
+location_host_get www.fangdi.com.cn   
+location_protocol_get http:   
+Document_getElementsByTagName tagName->base  taglist->
+EventTarget_addEventListener type->click callback->function(n) {
+                    var t = i[236];
+                    n = n || event;
+                    var r = n[bn + t + p] || n[Wn(o[5], c[237], o[238])];
+                    do {
+                        if (r[i[240]] == i[241]) {
+                            a(r) && D();
+                            break
+                        }
+                    } while (r = r[i[239]])
+                } options->  
+EventTarget_addEventListener type->submit callback->function D() {
+                var n = rt.update();
+                return Qn.setCookie(Fn, n, o[248], A, t[215]),
+                Zn.set(jn, n),
+                n
+            } options->  
+Document_cookie_set cookie -> v=A9RSPVTrTVtm6dkXgxqecwhBpRlDLfgXOlGMW261YN_iWXoHlj3Ip4phXOq9
+Storage_setItem keyName->hexin-v keyValue->A9RSPVTrTVtm6dkXgxqecwhBpRlDLfgXOlGMW261YN_iWXoHlj3Ip4phXOq9  
+window_setInterval func->function() {
+                    Jn.getServerTime()
+                } delay->1200000 argList->  
+开始执行浏览器事件==========当前为事件类型为==>: wheel
+EventTarget_dispatchEvent wheel 未实现
+开始执行浏览器事件==========当前为事件类型为==>: mousemove
+EventTarget_dispatchEvent mousemove 未实现
+开始执行浏览器事件==========当前为事件类型为==>: touchmove
+EventTarget_dispatchEvent touchmove 未实现
+开始执行浏览器事件==========当前为事件类型为==>: click
+MouseEvent_clientX_get clientX_->undefined  
+MouseEvent_clientY_get clientY->undefined  
+开始执行浏览器事件==========当前为事件类型为==>: click
+'[Node_parentNode_get]正在执行,错误信息Cannot read properties of undefined (reading 'parentNode')'
+'[Node_parentNode_get]正在执行,错误信息Cannot read properties of undefined (reading 'parentNode')'
+开始执行浏览器事件==========当前为事件类型为==>: keydown
+EventTarget_dispatchEvent keydown 未实现
+开始执行浏览器事件==========当前为事件类型为==>: submit
+EventTarget_dispatchEvent submit 未实现
+Document_cookie_set cookie -> v=A44I6yKJZyUY69MBdfikPeaD329VD1ILZNIG7LjW-hFMGyDRIJ-iGTRjVv-L
+Storage_setItem keyName->hexin-v keyValue->A44I6yKJZyUY69MBdfikPeaD329VD1ILZNIG7LjW-hFMGyDRIJ-iGTRjVv-L  
+JSON.stringify    arg0:[object Object]   arg1:undefined
+当前setTimeEvent有===>[{"delay":1200000,"args":[],"type":1,"timeoutID":1}]
+JSON.stringify    arg0:[object Object]   arg1:undefined
+异步回调执行settime=======================================>{"delay":1200000,"args":[],"type":1,"timeoutID":1}   callback:function() {
+                    Jn.getServerTime()
+                }
+Document_createElement tagName->script [object HTMLScriptElement]
+location_protocol_get http:   
+HTMLScriptElement_src_set http://s.thsi.cn/js/chameleon/time.11424130.js  
+HTMLElement_onerror_set 
+HTMLElement_onload_set 
+Document_body_get body->[object HTMLBodyElement]  
+Element_tagName_get   tagname->SCRIPT
+'[HTMLScriptElement_src_get]正在执行,错误信息Cannot read properties of undefined (reading 'apply')'
+'[HTMLScriptElement_src_get]正在执行,错误信息Cannot read properties of undefined (reading 'apply')'
+Document_cookie_set cookie -> v=A60rxjVMtNBXRlA8wt3XyLkevEIiCuHeaz9Fse-z6cSzZsO8t1rxrPuOVYN8
+Storage_setItem keyName->hexin-v keyValue->A60rxjVMtNBXRlA8wt3XyLkevEIiCuHeaz9Fse-z6cSzZsO8t1rxrPuOVYN8  
+Node_appendChild child->[object HTMLScriptElement]

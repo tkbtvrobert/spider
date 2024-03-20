@@ -1,0 +1,28 @@
+
+第一种   响应cookie   后台生成的
+httponlty  有打钩是  服务器返回
+
+
+响应cookie  一般是首页请求之后  进行设置
+
+
+X-CSRF-TOKEN   令牌    一般是在首页
+
+
+cookie加密  一定要先清空所有cookie   确保他一定重新生成
+第二种 前端生成cookie值
+阿里系cookie
+    特点 cookie键名  acw_sc__v2     acw_tc
+    acw_tc   服务器返回的   2
+    第一次请求  获取到响应的  acw_tc  cookie   获取到响应的js代码   通过js代码生成acw_sc__v2
+    第二次请求  带上两个cookie 进行请求
+
+
+加速乐系列   edg 抓包  能看到前两次的响应代码    谷歌看不到
+    特点  cookie键名字  __jsl  加速乐  响应的前两次状态码  521    发送三次请求
+    数据包为什么没有了?
+        页面可能自己重新加载了
+
+
+Canvas  库    node   16版本
+

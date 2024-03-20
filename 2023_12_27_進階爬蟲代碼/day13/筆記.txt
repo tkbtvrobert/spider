@@ -1,0 +1,55 @@
+
+混淆之后的结构:
+    1. 定义一个数组  可能在第一行  等级较高的可能比较隐蔽
+    2. 重构数组    一般是一个自执行方法 不要进行格式化   会有内存泄漏问题
+    3. 自解密函数  作用是用来解密数组   或者到准确的值   不建议格式化
+    4. 真实代码
+    5. 垃圾代码   不涉及业务  恶心
+
+# 内存泄漏问题
+# Fatal error in , line 0
+# Fatal JavaScript invalid size error 184071938
+#
+#
+#
+#FailureMessage Object: 000000E002DFE840
+ 1: 00007FF7138D158F v8::internal::CodeObjectRegistry::~CodeObjectRegistry+122159
+ 2: 00007FF7137EC5CF node::TriggerNodeReport+38239
+ 3: 00007FF7144CDE32 V8_Fatal+162
+ 4: 00007FF71404D825 v8::internal::FactoryBase<v8::internal::Factory>::NewFixedArray+101
+ 5: 00007FF713F0E802 v8::Object::GetIsolate+16706
+ 6: 00007FF713D82001 v8::internal::CompilationCache::IsEnabledScriptAndEval+26961
+ 7: 00007FF714220051 v8::internal::SetupIsolateDelegate::SetupHeap+494417
+ 8: 000002B810450224
+
+g代表全局
+npm install javascript-obfuscator -g
+
+用網頁方式混淆或是用代碼方式都可以
+
+把window去掉
+const _0x2bc465 = window['atob'](_0x529333)
+atob是自帶的函數
+
+對於混淆數據可手動還原代碼，使得更好閱讀
+c[n(1092, 0, "TS!b", 1874, 1479) + "e"](s[f("sb&@", 1582, 2138, 1804)])[n(928, 0, "aTGn", 485, 922) + "h"]()[t(382, 0, "cEzn", 230)]()
+c.encode(s['data']).finish().slice()
+
+aa = {
+    bb: 123,
+    cc: function () {
+        console.log('123');
+    }
+}
+console.log(aa['bb'])
+aa['cc']()
+
+數據流application/octet-stream這個的關係，傳過去必須是bytes
+data=bytes(data1['data'])
+
+或是在js中回傳數據轉碼
+return w.finish().slice().toString('base64')
+
+import base64
+date1_base64 = base64.b64decode(data1)
+data=date1_base64
